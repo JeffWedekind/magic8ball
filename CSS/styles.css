@@ -1,5 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #bde0fe;
+    font-family: 'Calligraffitti', cursive;
+}
+nav {
+    background-color: #355070; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #355070, #a5a58d);
+}
+.BG {
+    background-image: url("/IMG/Sho_nuff_NEW.jpg");
+    height: 100%;
+}
+footer {
+    background-color: #355070; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #355070, #a5a58d);
 }
