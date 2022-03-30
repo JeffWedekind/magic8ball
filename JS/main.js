@@ -50,3 +50,4 @@ askAgain.addEventListener("click", ()=> {
     inputForm.style.display = "block";
     eightBall.src = eightBallStart;
 })
+// End Javascript
