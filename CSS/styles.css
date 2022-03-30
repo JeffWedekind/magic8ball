@@ -13,7 +13,10 @@ nav {
 .BG {
     background-image: url("../IMG/Sho_nuff_NEW.jpg");
     height: 100%;
-    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 /* Animation */
 @keyframes colors {
