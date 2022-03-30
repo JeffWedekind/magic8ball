@@ -11,7 +11,7 @@ nav {
 }
 /* Hero */
 .BG {
-    background-image: url("./IMG/Sho_nuff_NEW.jpg");
+    background-image: url("../IMG/Sho_nuff_NEW.jpg");
     height: 100%;
 }
 @keyframes colors {
