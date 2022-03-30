@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Calligraffitti', cursive;
+    text-shadow: 2px 2px #a5a58d;
+    
 }
 /* Nav Bar */
 nav {
@@ -18,7 +20,7 @@ nav {
     background-size: cover;
     position: relative;
 }
-/* Animation */
+/* IMG Animation 1 */
 @keyframes colors {
     0%, 50% {
         box-shadow: inset 0 0 50px #f0f,
@@ -36,11 +38,21 @@ nav {
     border-radius: 50%;
     animation-iteration-count: infinite;
 }
+/* Button Animation 2 */
+@keyframes colors2 {
+    0%, 50% {
+        box-shadow: inset 0 0 50px #f0f,
+        10px 0 80px #f0f;
+    }
+    25%, 100% {
+        box-shadow: inset 0 0 50px #0ff,
+        10px 0 80px #0ff;
+    }
+}
 /* Button */
 .TheGlow2 {
-    animation-name: colors;
+    animation-name: colors2;
     animation-duration: 25s;
-    border-radius: 100%;
     animation-iteration-count: infinite;
 }
 /* Contact */
@@ -48,3 +60,4 @@ footer {
     background-color: #355070; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, #355070, #a5a58d);
 }
+/* End CSS */
