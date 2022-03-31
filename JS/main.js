@@ -49,5 +49,5 @@ askAgain.addEventListener("click", ()=> {
     questionDisplay.style.display = "none";
     inputForm.style.display = "block";
     eightBall.src = eightBallStart;
-})
+});
 // End Javascript
